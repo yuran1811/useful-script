@@ -20,7 +20,7 @@ Donate? For better health and ideas <3 [Donate here](https://github.com/HoangTra
 
 An extension includes a lot of small extensions. Make your life easier.
 
-- Please join [FACEBOOK GROUP](https://www.facebook.com/groups/1154059318582088) of this extension
+- Please join [FACEBOOK GROUP](https://www.facebook.com/groups/fbaio2) of this extension
 
 ## Demo
 

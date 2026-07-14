@@ -589,10 +589,7 @@ function checkIsPreview(script) {
       reverseButtons: true,
     }).then((res) => {
       if (res.isConfirmed) {
-        window.open(
-          "https://www.facebook.com/groups/1154059318582088/posts/1453443235310360/",
-          "_blank",
-        );
+        window.open("https://www.youtube.com/watch?v=2wFTbDK80g0", "_blank");
       }
     });
     return true;

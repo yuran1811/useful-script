@@ -12,15 +12,33 @@ Thank you for your interest in contributing to Useful Scripts! This guide will h
 
 ### Table of Contents
 
-- [Repository Structure](#repository-structure)
-- [Ways to Contribute](#ways-to-contribute)
-  - [1. Add Your Own Script](#1-add-your-own-script)
-  - [2. Fix or Improve Existing Scripts](#2-fix-or-improve-existing-scripts)
-  - [3. Improve Core Logic](#3-improve-core-logic)
-  - [4. Translation](#4-translation)
-- [Script Development Guide](#script-development-guide)
-- [Testing Your Changes](#testing-your-changes)
-- [Contact](#contact)
+- [Contributing Guide | Hướng Dẫn Đóng Góp](#contributing-guide--hướng-dẫn-đóng-góp)
+  - [English](#english)
+    - [Table of Contents](#table-of-contents)
+    - [Repository Structure](#repository-structure)
+    - [Ways to Contribute](#ways-to-contribute)
+      - [1. Add Your Own Script](#1-add-your-own-script)
+      - [2. Fix or Improve Existing Scripts](#2-fix-or-improve-existing-scripts)
+      - [3. Improve Core Logic](#3-improve-core-logic)
+      - [4. Translation](#4-translation)
+    - [Script Development Guide](#script-development-guide)
+      - [Understanding Execution Contexts](#understanding-execution-contexts)
+      - [Common Script Patterns](#common-script-patterns)
+    - [Testing Your Changes](#testing-your-changes)
+    - [Contact](#contact)
+  - [Tiếng Việt](#tiếng-việt)
+    - [Mục Lục](#mục-lục)
+    - [Cấu Trúc Thư Mục](#cấu-trúc-thư-mục)
+    - [Các Cách Đóng Góp](#các-cách-đóng-góp)
+      - [1. Thêm Script Của Bạn](#1-thêm-script-của-bạn)
+      - [2. Sửa Hoặc Nâng Cấp Script Có Sẵn](#2-sửa-hoặc-nâng-cấp-script-có-sẵn)
+      - [3. Cải Thiện Logic Chính](#3-cải-thiện-logic-chính)
+      - [4. Dịch Thuật](#4-dịch-thuật)
+    - [Hướng Dẫn Phát Triển Script](#hướng-dẫn-phát-triển-script)
+      - [Hiểu Về Ngữ Cảnh Thực Thi](#hiểu-về-ngữ-cảnh-thực-thi)
+      - [Mẫu Script Phổ Biến](#mẫu-script-phổ-biến)
+    - [Kiểm Tra Thay Đổi](#kiểm-tra-thay-đổi)
+    - [Liên Hệ](#liên-hệ)
 
 ---
 
@@ -294,7 +312,7 @@ contentScript: {
 
 - **Email:** <99.hoangtran@gmail.com>
 - **Facebook:** [fb.com/99.hoangtran](https://fb.com/99.hoangtran)
-- **Facebook Group:** [Useful Scripts Community](https://www.facebook.com/groups/1154059318582088)
+- **Facebook Group:** [Useful Scripts Community](https://www.facebook.com/groups/fbaio2)
 - **Issues:** Feel free to ask questions or report bugs
 
 ---
@@ -589,5 +607,5 @@ contentScript: {
 
 - **Email:** <99.hoangtran@gmail.com>
 - **Facebook:** [fb.com/99.hoangtran](https://fb.com/99.hoangtran)
-- **Facebook Group:** [Cộng đồng Useful Scripts](https://www.facebook.com/groups/1154059318582088)
+- **Facebook Group:** [Cộng đồng Useful Scripts](https://www.facebook.com/groups/fbaio2)
 - **Issues:** Thoải mái đặt câu hỏi hoặc báo lỗi

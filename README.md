@@ -20,7 +20,7 @@ Donate? Muốn hỗ trợ mình 1 ly cafe <3 [Donate tại đây](https://hoangt
 
 1 tiện ích chứa rất nhiều chức năng nhỏ. Giúp cuộc sống dễ dàng hơn.
 
-- Hãy tham gia ngay [GROUP FACEBOOK](https://www.facebook.com/groups/1154059318582088) của tiện ích
+- Hãy tham gia ngay [GROUP FACEBOOK](https://www.facebook.com/groups/fbaio2) của tiện ích
 
 ## Demo
 
