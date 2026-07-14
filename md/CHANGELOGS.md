@@ -1,6 +1,14 @@
 ## Change logs
 
 <details>
+  <summary>v2.2 - 14/07/2026</summary>
+
+- Viral on [Threads](https://www.threads.com/@lapdangdilam/post/Dau4-VaEhCT)
+- Fix old group/post url + redirect to FB AIO
+
+</details>
+
+<details>
   <summary>v2.1 - 26/11/2025</summary>
 
 - Optimize popup loading time, load popup faster than x100

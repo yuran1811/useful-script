@@ -32,11 +32,12 @@ Try online [Here](https://useful-scripts-extension.github.io/useful-script/popup
 
 Current Versions:
 
-- **v2.1**: Fix optimization error: remove import @allScripts in storageScripts.js
+- **v2.2**: Viral on [Threads](https://www.threads.com/@lapdangdilam/post/Dau4-VaEhCT), fix group url + redirect to FB AIO
 
 <details>
   <summary>Old versions</summary>
 
+- <del>- **v2.1**: Fix optimization error: remove import @allScripts in storageScripts.js</del>
 - <del>- **v2.0**: Hotfix bug crash popup</del>
 - <del>- **v1.9**: optimize scripts, load popup faster than x100 (ERROR)</del>
 - <del>- **v1.8**: douyin + facebook + youtube update 22/08/2024</del>

@@ -48,7 +48,7 @@ export default {
             new Promise((resolve) => setTimeout(resolve, ms));
 
           let pageContainers = Array.from(
-            document.querySelectorAll(".ndfHFb-c4YZDc-cYSp0e-DARUcf")
+            document.querySelectorAll(".ndfHFb-c4YZDc-cYSp0e-DARUcf"),
           );
 
           let pageCount = pageContainers.length;
@@ -62,7 +62,7 @@ export default {
               "Sẽ bắt đầu quá trình scoll để tải các trang\n" +
               "Scroll trang chậm sẽ hạn chế lỗi không tải được trang pdf\n\n" +
               "Vui lòng nhập độ trễ chuyển trang (ms) (>0):\n",
-            50
+            50,
           );
 
           if (!delay) return;
@@ -113,9 +113,9 @@ export default {
             clearInterval(window.ufs_checkImagesLoadedInterval);
           }
 
-          window.ufs_checkImagesLoadedInterval = setInterval(() => {
+          window.ufs_checkImagesLoadedInterval = setInterval(async () => {
             let imgs = Array.from(
-              document.querySelectorAll("img[src^='blob:']")
+              document.querySelectorAll("img[src^='blob:']"),
             ).filter((_) => _.complete);
 
             info.innerText =
@@ -124,7 +124,7 @@ export default {
               `(${getTime()}s)`;
 
             let errorPage = Array.from(
-              document.querySelectorAll(".ndfHFb-c4YZDc-bN97Pc-u0pjoe-haAclf")
+              document.querySelectorAll(".ndfHFb-c4YZDc-bN97Pc-u0pjoe-haAclf"),
             );
 
             if (errorPage.length) {
@@ -135,6 +135,7 @@ export default {
               info.innerText = "Đang tạo PDF...";
               clearInterval(window.ufs_checkImagesLoadedInterval);
 
+              await UfsGlobal.Utils.sleep(500);
               let pdf;
               for (let i = 0; i < imgs.length; i++) {
                 let img = imgs[i];
@@ -158,10 +159,15 @@ export default {
                 if (i < imgs.length - 1) pdf.addPage([img.width, img.height]);
               }
               info.remove();
+              prompt(
+                "Tạo xong, bấm OK để tải xuống PDF, nếu có lỗi, hoặc muốn tải cả chữ (giúp search text trong pdf), hãy dùng FB AIO:",
+                "https://fbaio.org/#/downloader",
+              );
+
               pdf.save((document.title || "download") + ".pdf");
             }
           }, 1000);
-        }
+        },
       );
     },
   },
